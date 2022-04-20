@@ -1,0 +1,25 @@
+body{
+    user-select: none;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    display: flex;
+}
+i:hover, label:hover{
+    cursor: pointer;
+}
+input{
+    display: none;
+}
+i{
+    margin-left: 5px;
+    transition: .5s;
+}
+input:checked~i{
+    background: rgb(54, 187, 54);
+    
+}
